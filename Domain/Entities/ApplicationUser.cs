@@ -13,3 +13,5 @@ namespace jwtaccount_two.Domain.Entities
         public DateTime? UpdatedAt { get; set; }
     }
 }
+
+ 
