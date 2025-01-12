@@ -71,9 +71,15 @@ namespace jwtaccount_two.Service
             return _mapper.Map<UserResponse>(user);
         }
 
-        public Task<CurrentUserResponse> GetCurrentUserAsync()
+        public async Task<CurrentUserResponse> GetCurrentUserAsync()
         {
-            throw new NotImplementedException();
+            var user = await _userManager.FindByIdAsync(_icurrentUserService.GetUserId());
+            if(user is null)
+            {
+                _logger.LogError("No user found");
+                throw new Exception("No User foud");
+            }
+            return _mapper.Map<CurrentUserResponse>(user);
         }
 
         public async Task<UserResponse> LoginAsync(UserLoginRequest request)

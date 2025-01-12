@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("jwtaccount_two")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7e936a729aa305ab7fa90dbef17d58b5a6ddc96")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3314a9b7453d13a7bd9a22402fc3b8ec7ecae29a")]
 [assembly: System.Reflection.AssemblyProductAttribute("jwtaccount_two")]
 [assembly: System.Reflection.AssemblyTitleAttribute("jwtaccount_two")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
